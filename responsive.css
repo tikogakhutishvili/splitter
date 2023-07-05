@@ -1,0 +1,38 @@
+@media screen and (min-width: 1440px) {
+    main {
+        width: 920px;
+        height: 481px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 45px 32px 32px 48px;
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+    }
+    .left,
+    .tip{
+        align-items: start;
+    }
+    .buttons {
+        justify-content: start;
+        margin-top: 16px;
+    }
+    .buttons > button {
+        margin: 0;
+        margin-right: 14px;
+        margin-bottom: 14px;
+    }
+    .right {
+        width: 413px;
+        height: 417px;
+        justify-content: space-between;
+        margin-bottom: 0 ;
+    }
+    .mrg {
+        margin-top: 25px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+}

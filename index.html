@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body class="df">
+    <img src="./images/SPLITTER.svg" alt="">
+    <main>
+        <div class="df left">
+            <div class="typefee">
+                <h3>Bill</h3>
+                <input id="typefee" type="number" placeholder="0">
+            </div>
+            <div class="tip">
+                    <h3>Select Tip %</h3>
+                <div class="buttons">
+                    <button id="five">5%</button>
+                    <button id="ten">10%</button>
+                    <button id="fifteen">15%</button>
+                    <button id="twentyfive">25%</button>
+                    <button id="fifty">50%</button>
+                    <input id="typeperc" type="number" placeholder="Custom">
+                </div> 
+            </div>
+            <div class="nop">
+                <div class="required">
+                    <h3>Number of People</h3>
+                    <div class="hide" id="required">Can’t be zero</div>
+                </div>
+                    <input id="peoplenum" type="number" required placeholder="0">
+            </div>
+        </div>
+        <div class="right">
+            <div>
+                <div class="total">
+                    <div>
+                        <h4>Tip Amount</h4>
+                        <p>/ person</p>
+                    </div>
+                    <h2 id="oneperson">$0.00</h2>
+                </div>
+                <div class="total mrg">
+                    <div>
+                        <h4>Total</h4>
+                        <p>/ person</p>
+                    </div>
+                    <h2 id="total">$0.00</h2>
+                </div>
+            </div>
+                <button id="reset"> reset</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
