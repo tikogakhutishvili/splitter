@@ -178,13 +178,18 @@
     }
     .right > button {
         border-radius: 5px;
-        background: #26C2AE;
+        background: #0D686D;
         width: 281px;
         height: 48px;
         flex-shrink: 0;
         color: #00474B;
         text-align: center;
         font-size: 20px;
+        opacity: 0.3499999940395355;
+    }
+    .right > button:hover {
+        background-color: #26C2AE;
+        opacity: 1;
     }
     .right > div {
         width: 100%;
@@ -212,6 +217,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    input:hover {
+        border: 2px solid #26C2AE;
     }
 
 }

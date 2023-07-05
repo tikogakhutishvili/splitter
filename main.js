@@ -13,14 +13,17 @@ const required = document.querySelector("#required")
 const inps = document.querySelectorAll("input")
 const calc = document.querySelector("#calc")
 
+typeperc.addEventListener('click', () => {
+    typeperc.classList.add("brdr")
+})
 
 calc.addEventListener("click", () => {
     if(peoplenum.value === "") {
-        peoplenum.style.borderColor= "#E17052;"
+        peoplenum.style.border = "2px solid #E17052"
         required.classList.replace("hide","show")
     } else {
         return result (typeperc.value),
-        typefee.style.border = "none",
+        peoplenum.style.border = "none",
         required.classList.replace("show","hide")
     }
 })
