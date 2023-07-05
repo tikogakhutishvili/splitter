@@ -17,9 +17,6 @@ const percent = []
 fiveperc.addEventListener('click', () => {
     money.push(typefee.value)
     num.push(peoplenum.value)
-    if(num === 0){
-        required.classList.toggle("show")
-    }
     five()
 })
 
